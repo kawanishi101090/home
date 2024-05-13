@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>プロフィール</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            text-align: center;
+        }
+        .profile-img img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .profile-info h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .profile-info p {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <p>hello world</p>
+    <div class="container">
+        <div class="profile-img">
+            <img src="profile.jpg" alt="プロフィール画像">
+        </div>
+        <div class="profile-info">
+            <h1>Kawanishi Ryohei</h1>
+            <p>職業</p>
+            <p>所在地</p>
+            <p>連絡先</p>
+            <p>その他の情報</p>
+        </div>
+    </div>
 </body>
 </html>
