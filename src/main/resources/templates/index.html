@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@
 <body>
     <div class="container">
         <div class="profile-img">
-            <img src="img/profile.jpg" alt="プロフィール画像">
+            <img th:src="@{/img/profile.jpg}">
         </div>
         <div class="profile-info">
             <h1>Kawanishi Ryohei</h1>
