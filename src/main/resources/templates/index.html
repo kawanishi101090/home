@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プロフィール</title>
+    <title>川西凌平</title>
+    <link th:href="@{/styles/index.css}" rel="stylesheet"></link>
 </head>
 <body>
-    <div class="container">
-        <div class="profile-img">
-            <img th:src="@{/img/profile.jpg}">
+    <header class="header">
+        <div class="logo">
+            
         </div>
-        <div class="profile-info">
+        <div class="headLnk">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="profile_img">
+            <img th:src="@{/img/plofile/top_sample2.jpg}">
+        </div>
+        <div class="profile_info">
             <h1>Kawanishi Ryohei</h1>
             <p>職業</p>
             <p>所在地</p>
